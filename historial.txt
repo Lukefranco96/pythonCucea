@@ -1,1 +1,5 @@
 funcionaVendiste 105 pesos
+Vendiste 90.0 pesos mexicanos y tu venta en dollares fue de 83.8813582069521
+Vendiste 36.0 pesos mexicanos y tu venta en dollares fue de 618.769336541767
+Vendiste 135.0 pesos mexicanos y tu venta en dollares fue de 2320.3850120316256
+Vendiste 135.0 pesos mexicanos y tu venta en dollares fue de 7.854299999999999
