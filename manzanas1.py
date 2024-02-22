@@ -10,7 +10,7 @@ BASE_URL = f'https://v6.exchangerate-api.com/v6/0531001f34a5b58b9c0cc8bc/latest/
 response = requests.get(BASE_URL)
 data = response.json()
 
-print(data)
+# print(data)
 
 # obtiene la tasa de cambio de pesos eur a mxn
 tasaCambio = data['conversion_rates']['USD']
@@ -38,4 +38,59 @@ with open('historial.txt', 'a') as historial:
     historial.write(f'Vendiste {resultadoMX} pesos mexicanos y tu venta en dollares fue de {resultadoUSD}\n')
 
 print(f'Vendiste {resultadoMX} pesos mexicanos y tu venta en dollares fue de {resultadoUSD}\n')
-    
+#codigo Omar
+
+while True:
+    numManzanas = int(input("ingresa el numero de manzanaz: "))
+    precioManzana = float(input("ingresa el precio de la manzanaz: "))
+    if numManzanas == 0:
+        print('fin del programa pusiste 0')
+        break
+    elif numManzanas>=10 and numManzanas<17:
+     totalDeVenta =  resultado * 0.9
+     porcentajeDescontado = resultado * 0.10
+     print (f"tu descuento fue del {porcentajeDescontado} y el total va a ser { totalDeVenta}")
+    elif numManzanas == 17 :
+        totalDeVentaEspecial = resultado * 0.80
+        porcentajeEspecial= resultado*0.2
+        print(f"Por ser cliente especial tu descuento es del 20% y tu total a pagar es: {totalDeVentaEspecial} con un descuento de {porcentajeEspecial}")
+    else :
+        print(f"Tu cantidad a pagar es de {resultadoMX} ya que no fueron mas de 10 pz. y el descuento solo aplica arriba de 10pz")   
+
+
+
+#codigo efrain
+
+# if numManzanas==17:
+#     porcentajeDescontado= resultado*.8
+#     print(f"por ser cliente especial este es el total a pagar {porcentajeDescontado}")
+# elif numManzanas>=10:
+#     totalDeVenta = resultado *.9
+#     porcentajeDescontado=resultado*.1
+#     print(f"descuento fue de {porcentajeDescontado} total {totalDeVenta}")
+# else:
+#     print(f"no hay descuento")
+ 
+ #crear un programa que m diga si un año es bisisesto, tiene que ser divisible entre 4 pero no entre 100 ssolo con la excepcion que sea 400
+#  hacerlo con operadores ternarios
+
+
+
+# while
+# tabla=13
+# multi=0
+
+# while multi<=1000:
+#     print (f'{tabla}*{multi}= {tabla*multi}')
+#     multi += 1
+
+
+
+numero1=  int(input("ingresa el numero 1: "))
+numero2= int(input ("ingresa el numero 2: "))
+rango= range(numero1,numero2)
+for numero in rango:
+    if numero%2==0:
+        print (f"numero par {numero}")
+    else :
+        print(f"numero imprar{numero}")
