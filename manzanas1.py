@@ -1,5 +1,6 @@
 # api key 0531001f34a5b58b9c0cc8bc
 import requests 
+
 # clave de mi api key
 API_KEY= '0531001f34a5b58b9c0cc8bc'
 
@@ -40,22 +41,38 @@ with open('historial.txt', 'a') as historial:
 print(f'Vendiste {resultadoMX} pesos mexicanos y tu venta en dollares fue de {resultadoUSD}\n')
 #codigo Omar
 
+
+
 while True:
     numManzanas = int(input("ingresa el numero de manzanaz: "))
     precioManzana = float(input("ingresa el precio de la manzanaz: "))
     if numManzanas == 0:
         print('fin del programa pusiste 0')
         break
-    elif numManzanas>=10 and numManzanas<17:
-     totalDeVenta =  resultado * 0.9
-     porcentajeDescontado = resultado * 0.10
-     print (f"tu descuento fue del {porcentajeDescontado} y el total va a ser { totalDeVenta}")
-    elif numManzanas == 17 :
-        totalDeVentaEspecial = resultado * 0.80
-        porcentajeEspecial= resultado*0.2
-        print(f"Por ser cliente especial tu descuento es del 20% y tu total a pagar es: {totalDeVentaEspecial} con un descuento de {porcentajeEspecial}")
-    else :
-        print(f"Tu cantidad a pagar es de {resultadoMX} ya que no fueron mas de 10 pz. y el descuento solo aplica arriba de 10pz")   
+    else:
+        descuento()
+        seguir = input("quieres seguir? : ")
+        
+        if seguir == "si":
+            limpiar_pantalla()
+        else: 
+            limpiar_pantalla()
+        
+         
+
+# Parte 1
+# convertir el descuento en funcion
+
+
+
+
+# parte 2 limpiar pantalla
+
+
+
+# Llamar a la función para limpiar la pantalla
+
+
 
 
 
@@ -86,11 +103,11 @@ while True:
 
 
 
-numero1=  int(input("ingresa el numero 1: "))
-numero2= int(input ("ingresa el numero 2: "))
-rango= range(numero1,numero2)
-for numero in rango:
-    if numero%2==0:
-        print (f"numero par {numero}")
-    else :
-        print(f"numero imprar{numero}")
+# numero1=  int(input("ingresa el numero 1: "))
+# numero2= int(input ("ingresa el numero 2: "))
+# rango= range(numero1,numero2)
+# for numero in rango:
+#     if numero%2==0:
+#         print (f"numero par {numero}")
+#     else :
+#         print(f"numero imprar{numero}")

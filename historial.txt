@@ -15,3 +15,26 @@ Vendiste 170.0 pesos mexicanos y tu venta en dollares fue de 9.9365
 Vendiste 150.0 pesos mexicanos y tu venta en dollares fue de 8.8005
 Vendiste 170.0 pesos mexicanos y tu venta en dollares fue de 9.9739
 Vendiste 0.0 pesos mexicanos y tu venta en dollares fue de 0.0
+Vendiste 50.0 pesos mexicanos y tu venta en dollares fue de 2.924
+Vendiste 170.0 pesos mexicanos y tu venta en dollares fue de 9.9416
+Vendiste 150.0 pesos mexicanos y tu venta en dollares fue de 8.772
+Vendiste 150.0 pesos mexicanos y tu venta en dollares fue de 8.772
+Vendiste 225.0 pesos mexicanos y tu venta en dollares fue de 13.158
+Vendiste 225.0 pesos mexicanos y tu venta en dollares fue de 13.158
+Vendiste $178 pesos mexicanos y tu venta en dollares fue de $10.43258
+Vendiste $105 pesos mexicanos y tu venta en dollares fue de $6.154050000000001
+Vendiste 162.0 pesos mexicanos y tu venta en dollares fue de 9.49482
+ haciendo un decsuento del 10% en la compra
+Vendiste $180 pesos mexicanos y tu venta en dollares fue de $10.549800000000001
+Vendiste $136.0 pesos mexicanos y tu venta en dollares fue de $7.970960000000001
+ haciendo un decsuento del 20% en la compra
+Vendiste $170 pesos mexicanos y tu venta en dollares fue de $9.963700000000001
+Vendiste $136.0 pesos mexicanos y tu venta en dollares fue de $7.970960000000001
+ haciendo un decsuento del 20% en la compra
+Vendiste $170 pesos mexicanos y tu venta en dollares fue de $9.963700000000001
+Vendiste $136.0 pesos mexicanos y tu venta en dollares fue de $7.970960000000001
+ haciendo un decsuento del 20% en la compra
+Vendiste $170 pesos mexicanos y tu venta en dollares fue de $9.963700000000001
+Vendiste 1201.5 pesos mexicanos y tu venta en dollares fue de 70.42
+ haciendo un decsuento del 10% en la compra
+Vendiste $1335 pesos mexicanos y tu venta en dollares fue de $78.24
