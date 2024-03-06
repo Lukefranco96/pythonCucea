@@ -38,3 +38,6 @@ Vendiste $170 pesos mexicanos y tu venta en dollares fue de $9.963700000000001
 Vendiste 1201.5 pesos mexicanos y tu venta en dollares fue de 70.42
  haciendo un decsuento del 10% en la compra
 Vendiste $1335 pesos mexicanos y tu venta en dollares fue de $78.24
+Vendiste $476.0 pesos mexicanos y tu venta en dollares fue de $28.05
+ haciendo un decsuento del 20% en la compra
+Vendiste $595 pesos mexicanos y tu venta en dollares fue de $35.06
