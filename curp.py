@@ -38,7 +38,16 @@ OMAR = {
     "sexo" : 'Hombre'
 }
 
+DIEGO={
+    "nombre": "Diego Giovanni",
+    "pApellido": "Arroyo",
+    "sApellido": "Pesqueda",
+    "fechaDeNacimiento": datetime.datetime(2002, 9, 19),
+    "sexo": "Hombre"
+}
+
 print(curpGenerada(OMAR))
+print(curpGenerada(DIEGO))
 
 
 
@@ -49,9 +58,22 @@ print(curpGenerada(OMAR))
 # palindromas
 
 # revisar cuantas veces se repite una palabra  diccionarios con listas hashmaps
-
+# def identificador (oracion):
+#     for 'cion' in oracion:
+#         if 
+        
+        
+        
 # revisar si es pangrams
+def detectorPalindromos(cadena):
+    #quitamos espacios
+    cadena= cadena.replace(" ", "").lower()
+    return cadena == cadena[::-1]
 
+cadena1 = "Anita lava la tina"
+cadena2 = "Coca Cola"
+print (detectorPalindromos(cadena1))
+print(detectorPalindromos(cadena2))
 # oracle
 
 # ver si las siguientes palabras se tienen en comun ya sea de derecha a izq o de izq a derecha
@@ -65,3 +87,25 @@ print(curpGenerada(OMAR))
 
 # coder
 # redocalib
+palabra1 = "monthulk"
+palabra2= "forgett"
+palabra3= "redocalib"
+
+
+if "hulk" in palabra1:
+    print ("si anda aqui ")
+else:
+    print("no anda aca ")
+    
+if "rapid" in palabra2:
+    print ("si aparece aqui")
+else: 
+    print("no anda aca la repelotuda")
+
+if "coder" in palabra3:
+    print("si anda aqui")
+elif "coder"in palabra3[::-1]:
+    print ("eres crack papirrin")
+else: 
+    print("no esta aqui")
+    

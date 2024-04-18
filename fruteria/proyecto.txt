@@ -1,0 +1,21 @@
+mercado
+usuario
+nombre contra 
+datos varios
+
+clientes datos quieran
+
+nuestros productos
+
+presentacion
+kilos
+piezas
+rejillas
+
+descuentos por piezas
+
+proveedores
+id de proveedores
+id de clientes
+id de productos
+id de usuarios
